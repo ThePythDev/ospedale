@@ -1,0 +1,126 @@
+body{
+  font: 20px "Montserrat", sans-serif;
+  line-height: 1.8;
+  color: white;
+}
+
+.body-class{
+  color: black !important;
+}
+
+@media screen and (max-width: 768px) {
+  .body-class{
+    color: black !important;
+    text-align: center;
+  }
+
+  .text-right{
+    text-align: center;
+  }
+}
+
+.logo{
+  font-size: 200px;
+  color: #004089;
+}
+
+.container-fluid{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.container-margin{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.bg-blue{
+  background-color: #004089 !important;
+}
+
+.bg-white{
+  background-color: white !important;
+}
+
+.margin{
+  margin-bottom: 30px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #004089 !important;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.dropdown-menu{
+  background-color: #004089 !important;
+  color: white;
+}
+
+.open .dropdown-toggle {
+  color: #004089 !important;
+  background-color: #fff !important;
+}
+
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+.dropdown-menu li.active a{
+  background-color: #fff !important;
+  color: #004089 !important;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover{
+  color: #004089 !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+  background-color: #fff !important;
+  color: #004089 !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.slideanim {visibility:hidden;}
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
